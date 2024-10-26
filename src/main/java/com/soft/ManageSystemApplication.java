@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan({"com.soft.cyx.mapper","com.soft.base.mapper"})
-public class SpringbootTestApplication {
+public class ManageSystemApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootTestApplication.class, args);
+        SpringApplication.run(ManageSystemApplication.class, args);
     }
 }
